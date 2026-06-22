@@ -1,0 +1,4 @@
+Instance created successfully
+Logger 1 : Hey This is Logger 1
+Logger 2 : Hey This is Logger 2
+Are logger1 and logger2 same ? true
