@@ -1,0 +1,18 @@
+Module 2 - Data Structures and Algorithms
+
+1. EcommerceSearch.java (E-commerce Platform Search Function)
+-------------------------------------------------------------------
+Output when running the search tests:
+Linear Search Result
+Found: Keyboard (Electronics) ID: 108
+
+Binary Search Result
+Found: Keyboard (Electronics) ID: 108
+
+
+2. FinancialForecast.java (Recursive Financial Forecasting)
+-------------------------------------------------------------------
+Output when running the forecasting tool:
+Investment Value after 10 years = $28157.06
+
+===================================================================

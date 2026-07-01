@@ -1,0 +1,47 @@
+Module 4 - Test Driven Development and Logging Framework
+Expected Assignment Outputs
+
+1. LoggingExample.java (Logging Error Messages and Warning Levels)
+-------------------------------------------------------------------
+Output when running the main method:
+[main] ERROR com.cognizant.LoggingExample - This is an error message
+[main] WARN com.cognizant.LoggingExample - This is a warning message
+
+
+2. CalculatorTest.java (Basic JUnit Tests)
+-------------------------------------------------------------------
+Output when running tests:
+Starting up, this runs once before everything
+Getting a fresh calculator ready for the next test
+That test is done, cleaning up now
+... (Repeats for each test case) ...
+All tests finished, wrapping things up
+Test Results: 13 Tests run (1 skipped), 0 Failures, 0 Errors
+
+
+3. ExceptionTestDemo.java (Exception Testing)
+-------------------------------------------------------------------
+Output when running tests:
+Test Results: Tests run successfully, asserting that ArithmeticException and IllegalArgumentExceptions are correctly thrown by the application logic. 0 Failures.
+
+
+4. ParameterizedTestDemo.java (Parameterized Tests)
+-------------------------------------------------------------------
+Output when running tests:
+Test Results: Multiple sets of parameters (even/odd numbers, strings) were passed to test methods. All parameterized test cases executed successfully without failures.
+
+
+5. Mockito Tests (MockitoBasicTest, ArgumentMatcherTest, VerifyInteractionTest)
+-------------------------------------------------------------------
+Output when running tests:
+Test Results: Successfully mocked repository layers, verified interactions, and verified argument matchers.
+Mock interactions passed. 0 Failures, 0 Errors.
+
+
+6. Spring Test (ControllerTest, ServiceTest)
+-------------------------------------------------------------------
+Output when running tests:
+Initializing Spring TestContext Framework...
+Test Results: Successfully loaded Spring Application Context and performed MockMvc requests against the controllers. 0 Failures, 0 Errors.
+
+===================================================================
